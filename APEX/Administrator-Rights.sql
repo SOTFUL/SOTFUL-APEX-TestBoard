@@ -1,0 +1,23 @@
+DECLARE
+
+    L_IS_ADMIN VARCHAR2(10);
+
+BEGIN
+
+    SELECT
+        IS_ADMIN
+    INTO
+        L_IS_ADMIN
+    FROM
+        APEX_WORKSPACE_APEX_USERS
+    WHERE
+        WORKSPACE_ID = :WORKSPACE_ID AND
+        USER_NAME = :APP_USER;
+
+    IF L_IS_ADMIN = 'Yes' THEN
+        RETURN TRUE;
+    ELSE
+        RETURN FALSE;
+    END IF;
+
+END;

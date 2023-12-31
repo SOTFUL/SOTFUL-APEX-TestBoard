@@ -1,0 +1,23 @@
+DECLARE
+
+    L_IS_DEV VARCHAR2(10);
+
+BEGIN
+
+    SELECT
+        IS_APPLICATION_DEVELOPER
+    INTO
+        L_IS_DEV
+    FROM
+        APEX_WORKSPACE_APEX_USERS
+    WHERE
+        WORKSPACE_ID = :WORKSPACE_ID AND
+        USER_NAME = :APP_USER;
+
+    IF L_IS_DEV = 'Yes' THEN
+        RETURN TRUE;
+    ELSE
+        RETURN FALSE;
+    END IF;
+
+END;
