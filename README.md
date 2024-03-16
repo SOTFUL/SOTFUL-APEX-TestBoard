@@ -4,7 +4,7 @@ User-friendly APEX App for teams to report bugs/enhancements, communicate resolu
 
 ## Preview
 
-![SOTFUL APEX TestBoard Demo](README/TestBoard-Demo.gif)
+![SOTFUL APEX TestBoard Demo](readme/TestBoard-Demo.gif)
 
 ## Table of Contents
 
