@@ -1,6 +1,6 @@
 # SOTFUL APEX TestBoard
 
-User-friendly APEX App for teams to report bugs/enhancements, communicate resolution, and test your organization's APEX App Issues, of a given APEX Workspace.
+User-friendly Oracle APEX App for teams to report bugs/enhancements, communicate resolutions, and test your organization's APEX App Issues, of a given APEX Workspace.
 
 ## Preview
 
@@ -36,7 +36,7 @@ https://apex.oracle.com/pls/apex/r/s_e/testboard
 
 **Username:** contact@sotful.com
 
-**Password:** Sotful123!
+**Password:** orclapex1
 
 <a name="features"></a>
 ## Features
